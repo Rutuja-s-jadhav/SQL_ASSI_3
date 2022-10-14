@@ -60,21 +60,6 @@ Insert into customer values(2,'Rahul');
 select * from customer
 select c_id from customer where c_name LIKE 'Ra%';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 SELECT c_name, SUBSTRING(c_name,1,1)
 FROM company;
-
-
 select c_name from company where c_name LIKE ' %'
